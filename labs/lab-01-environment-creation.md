@@ -82,11 +82,11 @@ The enrichment pipeline pulls from Azure data sources. Source data must originat
 
  1.  Click the **+Container** link. For the name type `projections`:
 
-1.  Select **Container** for Access Type.
+1.  Select **Private** for Access Type.
  
 1.  Click the **+Container** link. For the name type `basicdemo`:
 
-1.  Select **Container** for Access Type.
+1.  Select **Private** for Access Type.
 
 1. Select the new container, then click **Upload**.  Browse to the **\resources\dataset** cloned github folder and select all the files, then click **Open**
 
@@ -102,7 +102,7 @@ The enrichment pipeline pulls from Azure data sources. Source data must originat
 
 ## Step 4 - Create the Cognitive Services Account
 
-A Cognitive Services resource is needed in order to enrich more than 20 documents per day in diromg Azure Search indexing. 
+A Cognitive Services resource is needed in order to enrich more than 23 documents per day in diromg Azure Search indexing. 
 
 1.  From the resource group, click **+Add**.  Search for **cognitive services**, select it, then click **Create**
 
